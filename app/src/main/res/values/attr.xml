@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--In the <attr> tag, the name attribute contains the identifier used to refer to the new
+attribute in the layout and the format attribute contains the type of the new attribute. -->
+    <declare-styleable name="MyCustomTV">
+        <attr name="values" format="reference" />
+    </declare-styleable>
+    <!-- To test the new values attribute, create a side spinner view in the MainActivity layout
+    below the existing side spinner. The attribute must be prefixed with a namespace added to the
+    RelativeLayout, such as xmlns:sidespinner="http://schemas.android.com/apk/res-auto".
+    This is what the final layout in /res/layout/activity_main.xml should look like.-->
+</resources>
